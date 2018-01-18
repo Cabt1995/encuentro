@@ -1,0 +1,57 @@
+
+footer{
+    margin-top: -15px;
+    height: 40%;;
+    background-color: gray;
+}
+
+footer ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+footer ul li{
+    width: 100%;
+}
+
+footer ul li ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li ul li{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+footer ul li ul li a{
+    color: white;
+}
+
+footer ul li ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+ul#apps img{
+   height: 60px;
+}
+
+@media(max-width:600px){
+    
+    footer{
+        height: auto;
+    }
+    
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+

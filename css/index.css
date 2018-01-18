@@ -1,0 +1,134 @@
+#banner{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: url('../img/ingenieria.png');
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-size: 25;
+}
+
+.fecha{
+    font-size: 20;    
+}
+
+.icon-abajo{
+    font-size: 50px;
+}
+#logo{
+    margin-top: 100px;
+}
+
+
+@media(max-width:500px){
+    
+    .titulo{
+        font-size: 25px;
+    }
+    
+}
+#contenidos{
+        color: white;
+        height: auto;
+        background: url('../img/login.png');
+    }
+
+#contenidos ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+#contenidos iframe{
+    margin-top: 52px;
+    margin-bottom: 50px;
+}
+
+#contenidos ul li ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton{
+    width: 40%;
+    height: 35px;
+    padding-top: 6px;
+    color: white;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+
+section ul li ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+section ul li ul li{
+    width: 100%;
+    -webkit-transition:background-color .4s;
+}
+
+#contenidos ul li ul li:hover{
+    background-color: rgba(255,255,255,.2);
+}
+
+
+@media(max-width:1000px){
+    #contenidos{
+        color: white;
+        height: auto;
+    }
+    #contenidos ul li ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .boton{
+        width: 40%;
+        height: 35px;
+        padding-top: 6px;
+        color: white;
+        border-radius: 20px;
+        background-color: cadetblue;
+    }
+}
+
+
+
+@media(max-width:430px)
+{
+    #logo{
+        width: 120px;
+        margin-top: 70px;
+    }
+     .titulo
+    {
+        font-size: 20px;
+    }
+    
+    #contenidos iframe{
+        width: 100%;
+    }
+    
+    .boton{
+        width: 50%;
+    }
+}
+
+@media(max-width:302px)
+{
+    .titulo{
+        font-size: 17px;
+    }
+    
+    .subtitulo{
+        font-size: 16px;
+    }
+    
+}

@@ -1,0 +1,47 @@
+*{
+	list-style: none;
+	padding:0;
+}
+
+body{
+	background: url('../img/login.png');
+}
+
+section.encabezado{
+	padding-top: 30px;
+	font-family: 'Manuale';
+	color: white;
+}
+
+section.datos{
+	padding: 50px;
+	color: white;
+}
+
+section.datos label{
+	width: 50%;
+}
+
+ul li ul{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+ul li ul li label.mitad{
+	width: 99%;
+}
+
+ul li label.describe input{
+	height: 100px;
+}
+
+label button{
+	margin-top: 30px;
+	width: 30%;
+}
+
+ul li input.form-control-file{
+	margin-bottom: 10px;
+}

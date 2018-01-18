@@ -1,0 +1,104 @@
+/*Seccion del Carrusel*/
+.carousel-inner{
+	height: 400px;
+}
+
+/*Seccion de Bienvenida, mision vision*/
+.bienvenidos ul{
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: justify;
+	list-style: none;
+}
+
+.bienvenidos ul li h3{
+	font-family: 'Pacifico';
+}
+
+.bienvenidos ul li p{
+	font-family: 'Manuale';
+}
+
+.bienvenidos ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.bienvenidos ul li:hover{
+	-webkit-transition: all .7s ease;
+}
+
+.bienvenidos ul li ul{
+	display: flex;
+	text-align: justify;
+	flex-direction: row;
+	text-align: justify;
+}
+
+.bienvenidos ul li ul li{
+	padding-left: 15px;
+	padding-right: 15px;
+	-webkit-transition: all .7s ease;
+}
+
+.fuera:hover{
+	background: #bbdefb;
+}
+
+.dentro:hover{
+	background: #bbdefb;
+}
+
+
+
+/*Comite organizador*/
+
+.comite ul{
+	list-style: none;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-content: space-around;
+}
+
+.comite ul h6{
+	font-family: 'Pacifico';
+}
+
+.comite ul p{
+	font-family: 'Manuale';
+}
+
+.comite ul li ul{
+	display: flex;
+	text-align: center;
+}
+
+.comite ul li ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.comite ul li ul li{
+	-webkit-transition: all .4s ease;
+}
+.comite ul li ul li:hover{
+	background: #bbdefb;
+}
+
+@media(max-width:700px) {
+	.carousel-inner{
+		width: 80%;
+		height: 200px;
+	}
+
+
+	.bienvenidos ul li ul{
+		flex-direction: column;
+	}
+	
+	.comite ul li ul{
+		flex-direction: column;
+	}	
+}

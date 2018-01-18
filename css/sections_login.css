@@ -1,0 +1,55 @@
+*{
+	color: white;
+}
+body{
+	background: url('../img/login.png');
+}
+section ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+section ul li{
+	display: flex;
+	list-style: none;
+}
+
+section ul li form{
+	padding-top: 60%;
+
+}
+
+#lugar{
+	margin-top: 5%;
+}
+
+@media(max-width:600px)
+{
+    section ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section ul li form{
+        padding-top: 5px;
+    }
+    
+    section ul li{
+        display: flex;
+        justify-content: center;
+    }
+    
+    section ul li a img{
+        width: 40%;
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+}
+
+@media(max-width:500px)
+{
+    section{
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,53 @@
+body{
+	background: url('../img/texture.png');
+}
+
+header{
+	background: url("../img/header.png");
+	color: white;
+	height: 120px;
+	font-family: 'Graduate';
+}
+
+header h1{
+	padding-top: 40px;
+}
+
+section.menu{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	font-family: 'Manuale';
+}
+
+.navbar{
+	width: 100%;
+}
+
+.navbar-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+li.nav-item{
+	width: 100%;
+	text-align: center;
+	-webkit-transition:all .6s ease;
+}
+
+li.nav-item:hover{
+	background: #bbdefb;
+}
+
+@media(max-width:700px)
+{
+	header h1{
+		font-size: 20px;
+	}
+
+	*{
+		font-size: 12px;
+	}
+
+}
